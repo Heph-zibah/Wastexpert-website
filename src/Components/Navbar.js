@@ -11,7 +11,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<header className='pl-[19px] pr-[8px] py-[22px] lg:px-[100px] md:px-[60px] md:py-[30px] flex items-center justify-between shadow-[0px 4px 18px rgba(0, 0, 0, 0.16)] bg-[ linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(90.01deg, #08BD46 0.84%, rgba(44, 255, 204, 0) 194.85%)]'>
+		<header className='border-b pl-[19px] pr-[8px] py-[22px] lg:px-[70px] xl:px-[100px] md:px-[60px] md:py-[30px] flex items-center justify-between shadow-[0px 4px 18px rgba(0, 0, 0, 0.16)] bg-[ linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(90.01deg, #08BD46 0.84%, rgba(44, 255, 204, 0) 194.85%)]'>
 			<div className='flex items-center'>
 				<img src={logo} alt='wastexpert logo' />
 				<p className='font-inter text-[22px] text-primary font-semibold ml-[15px] sm:hidden md:block'>
