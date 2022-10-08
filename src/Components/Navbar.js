@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../Assets/HomePage/logo.svg';
 import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
@@ -20,17 +21,17 @@ const Navbar = () => {
 			</div>
 			<nav className='font-mulish font-semibold hidden lg:flex'>
 				<ul className='flex items-center text-primary lg:space-x-[46px]'>
-					<li>About Us</li>
-					<li>Services</li>
-					<li>Contact Us</li>
-					<li>FAQ</li>
+					<Link to='/About'>About Us</Link>
+					<Link to='/Services'>Services</Link>
+					<Link to='/Contact'>Contact Us</Link>
+					<Link to='/Faq'>FAQ</Link>
 				</ul>
 				<button className='px-[80px] py-[17px] bg-primary text-white rounded-md ml-[77px]'>
 					Login
 				</button>
 			</nav>
 			<div onClick={handleNav} className='block lg:hidden'>
-				{!nav ? (
+				{nav ? (
 					<AiOutlineClose className='text-[30px] text-[#646765]' />
 				) : (
 					<FaBars className='text-[30px] text-[#646765]' />
@@ -46,7 +47,7 @@ const Navbar = () => {
 				<div className='flex items-center justify-between'>
 					<img src={logo} alt='wastexpert logo' />
 					<div onClick={handleNav} className='block lg:hidden'>
-						{!nav ? (
+						{nav ? (
 							<AiOutlineClose className='text-[30px] text-[#646765]' />
 						) : (
 							<FaBars className='text-[30px] text-[#646765]' />
@@ -55,18 +56,30 @@ const Navbar = () => {
 				</div>
 				<div className='flex flex-col items-center text-center pt-[25px] pb-[17px]'>
 					<ul className='flex flex-col items-center text-primary text-center space-y-[28px] font-semibold'>
-						<li className='bg-white-500 hover:bg-[#9AD1AD] px-[200px] py-[10px]'>
+						<Link
+							to='/About'
+							className='bg-white-500 hover:bg-[#9AD1AD] px-[200px] py-[10px]'
+						>
 							About Us
-						</li>
-						<li className='bg-white-500 hover:bg-[#9AD1AD] px-[210px] py-[10px]'>
+						</Link>
+						<Link
+							to='/Services'
+							className='bg-white-500 hover:bg-[#9AD1AD] px-[210px] py-[10px]'
+						>
 							Services
-						</li>
-						<li className='bg-white-500 hover:bg-[#9AD1AD] px-[200px] py-[10px]'>
+						</Link>
+						<Link
+							to='/Contact'
+							className='bg-white-500 hover:bg-[#9AD1AD] px-[200px] py-[10px]'
+						>
 							Contact Us
-						</li>
-						<li className='bg-white-500 hover:bg-[#9AD1AD] px-[210px] py-[10px]'>
+						</Link>
+						<Link
+							to='/Faq'
+							className='bg-white-500 hover:bg-[#9AD1AD] px-[210px] py-[10px]'
+						>
 							FAQ
-						</li>
+						</Link>
 					</ul>
 					<button className='px-[80px] py-[17px] bg-primary text-white rounded-md flex items-center mt-[26px]'>
 						Login

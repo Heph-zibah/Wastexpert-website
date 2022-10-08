@@ -8,3 +8,7 @@
 	background-position: center bottom;
 	background-size: contain;
 }
+.about-bg {
+	background: linear-gradient(90deg, #15ddad 48.21%, #7cf7a6 100%);
+	border-radius: 33px;
+}
