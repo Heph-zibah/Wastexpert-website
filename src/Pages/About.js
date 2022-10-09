@@ -5,6 +5,7 @@ import aboutLine from '../Assets/AboutPage/about-line.svg';
 import chinaWaste from '../Assets/AboutPage/China-waste-1.svg';
 import bin from '../Assets/AboutPage/bin-1.svg';
 import bottle from '../Assets/AboutPage/bottle-1.svg';
+import Footer from '../Components/Footer';
 
 const About = () => {
 	return (
@@ -94,6 +95,7 @@ const About = () => {
 					</p>
 				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 };
