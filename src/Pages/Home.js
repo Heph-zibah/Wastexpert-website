@@ -1,5 +1,7 @@
 import React from 'react';
 import { IoIosArrowForward } from 'react-icons/io';
+import Navbar from '../Components/Navbar';
+import Hero from '../Components/Hero';
 import aboutImg from '../Assets/HomePage/about-img.svg';
 import cocacola from '../Assets/HomePage/Coca-Cola_logo 1.svg';
 import jaiz from '../Assets/HomePage/jaiz-bank-logo-removebg-preview 1.svg';
@@ -9,10 +11,13 @@ import nestle from '../Assets/HomePage/nestle-logo-1.svg';
 import nigBre from '../Assets/HomePage/Nigerian-Breweries-1.svg';
 import uba from '../Assets/HomePage/png-clipart-nigeria-united-bank-for-africa-logo-financial-services-bank-company-text-removebg-preview 1.svg';
 import ogun from '../Assets/HomePage/92da1cd8-ogun-state-removebg-preview 1.svg';
-import Navbar from '../Components/Navbar';
-import Hero from '../Components/Hero';
 import testimonial1 from '../Assets/HomePage/testimonial-1.svg';
 import testimonial2 from '../Assets/HomePage/testimonial-2.svg';
+import treasure1 from '../Assets/HomePage/treasure-1.svg';
+import treasure2 from '../Assets/HomePage/treasure-2.svg';
+import treasure3 from '../Assets/HomePage/treasure-3.svg';
+import treasure4 from '../Assets/HomePage/treasure-4.svg';
+import Accordion from '../Components/Accordion';
 import Footer from '../Components/Footer';
 
 const Home = () => {
@@ -164,6 +169,62 @@ const Home = () => {
 						</div>
 					</div>
 				</div>
+			</div>
+			{/*TREASURES*/}
+			<div className='bg-primary pt-[34px] pb-[57px] px-[64px] lgpt-[50px] lgpb-[57px] lgpx-[99px] flex flex-col items-center'>
+				<div className='flex items-center text-center mb-[50px]'>
+					<h6 className='font-mulish text-[25px] lg:text-[40px] font-semibold text-white text-center'>
+						Treasures
+					</h6>
+					<div className='bg-white w-[48px] lg:w-[149px] h-[1px] ml-[2px]'></div>
+				</div>
+
+				<div className='font-mulish text-white text-center flex flex-col lg:flex-row flex-wrap gap-[39px] lg:gap-[15px]'>
+					<div className='treasure-bg px-15 pt-[107px] pb-[47px] xl:pt-[163px] xl:pb-[122px]'>
+						<img src={treasure1} alt='can bottles' />
+						<p className='text-[22px] mt-[20px] '>
+							Aluminium Can <br /> Containers
+						</p>
+					</div>
+					<div className='treasure-bg px-15 pt-[107px] pb-[47px] xl:pt-[163px] xl:pb-[122px]'>
+						<img src={treasure2} alt='can bottles' />
+						<p className='text-[22px] mt-[20px] '>Discarded/ New Cartons</p>
+					</div>
+					<div className='treasure-bg px-15 pt-[107px] pb-[47px] xl:pt-[163px] xl:pb-[122px]'>
+						<img src={treasure3} alt='can bottles' />
+						<p className='text-[22px] mt-[20px] '>Glass Containers</p>
+					</div>
+					<div className='treasure-bg px-15 pt-[107px] pb-[47px] xl:pt-[163px] xl:pb-[122px]'>
+						<img src={treasure4} alt='can bottles' />
+						<p className='text-[22px] mt-[20px] '>Pet botles</p>
+					</div>
+				</div>
+				<button>See more</button>
+			</div>
+			{/*FAQ*/}
+			<div className='pt-[40px] xl:pt-[144px] pb-[54px] lg:pb-[66px]'>
+				<h6 className='text-center text-primary text-[40px] font-mulish font-semibold hidden lg:block'>
+					Frequently asked questions
+				</h6>
+				<h6 className='text-center text-primary text-[22px] font-mulish font-semibold lg:hidden'>
+					FAQ
+				</h6>
+				<div className='mt-[34px] lg:mt-[38px] rounded-md w-[390px] lg:w-[1000px] mx-auto accordion'>
+					<Accordion />
+				</div>
+			</div>
+			{/*CONTACT*/}
+			<div className='pb-[79px] font-mulish flex flex-col items-center w-[363px] lg:w-[400px] text-center mx-auto'>
+				<h6 className='text-center text-primary text-[25px] lg:text-[40px] font-mulish font-semibold'>
+					Still have a questions?
+				</h6>
+				<p className='text-black opacity-60 mt-[10] text-sm lg:text-base'>
+					If you cannot find answer to your question in our FAQ, you can always
+					Contact us. we will get back to you shortly!
+				</p>
+				<button className='py-[8px] px-[31px] lg:py-[15px] lg:px-[53px] text-white bg-primary rounded-md text-sm font-semibold mt-[60px]'>
+					Contact us
+				</button>
 			</div>
 			<Footer />
 		</div>
