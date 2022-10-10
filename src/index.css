@@ -46,6 +46,19 @@
 	background-size: contain;
 	background-position: center;
 }
+.contact {
+	background-color: linear-gradient(
+		223.05deg,
+		rgba(2, 140, 50, 0.28) 24.15%,
+		rgba(255, 255, 255, 0) 71.42%
+	);
+}
+.contact-bg {
+	background-image: url('./Assets/ContatPage/contact-bg.svg');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 550px;
+}
 
 .treasure-bg {
 	background: rgba(8, 189, 70, 0.7);
