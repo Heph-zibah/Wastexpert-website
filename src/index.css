@@ -8,7 +8,90 @@
 	background-position: center bottom;
 	background-size: contain;
 }
+
 .about-bg {
+	position: relative;
+}
+
+.about-bg:before {
+	content: '';
+	position: absolute;
+	bottom: 15px;
+	right: 0;
+	width: 668px;
+	height: 294px;
 	background: linear-gradient(90deg, #15ddad 48.21%, #7cf7a6 100%);
 	border-radius: 33px;
+	z-index: -1;
+	box-shadow: 2px 8px 4px rgba(0, 0, 0, 0.5);
+}
+
+.ordered {
+	list-style-type: disc;
+}
+
+.quote {
+	background-image: url('/src/Assets/AboutPage/recycle-bin.svg'),
+		url('/src/Assets/AboutPage/ecology.svg');
+	background-repeat: no-repeat;
+	background-position: left, right;
+	background-size: 100px;
+}
+
+@media screen and (min-width: 768px) {
+	.about-bg:before {
+		content: '';
+		position: absolute;
+		bottom: 15px;
+		right: 0;
+		width: 768px;
+		height: 494px;
+		background: linear-gradient(90deg, #15ddad 48.21%, #7cf7a6 100%);
+		border-radius: 33px;
+		z-index: -1;
+		box-shadow: 2px 8px 4px rgba(0, 0, 0, 0.5);
+	}
+}
+@media screen and (min-width: 1020px) {
+	.about-bg:before {
+		content: '';
+		position: absolute;
+		bottom: 60px;
+		right: 0;
+		width: 590px;
+		height: 494px;
+		background: linear-gradient(90deg, #15ddad 48.21%, #7cf7a6 100%);
+		border-radius: 33px;
+		z-index: -1;
+		box-shadow: 2px 8px 4px rgba(0, 0, 0, 0.5);
+	}
+}
+@media screen and (min-width: 1201px) {
+	.about-bg:before {
+		content: '';
+		position: absolute;
+		bottom: 15px;
+		right: 0;
+		width: 668px;
+		height: 494px;
+		background: linear-gradient(90deg, #15ddad 48.21%, #7cf7a6 100%);
+		border-radius: 33px;
+		z-index: -1;
+		box-shadow: 2px 8px 4px rgba(0, 0, 0, 0.5);
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.about-bg:before {
+		content: '';
+		position: absolute;
+		bottom: 15px;
+		right: 0;
+		width: 768px;
+		height: 494px;
+		background: linear-gradient(90deg, #15ddad 48.21%, #7cf7a6 100%);
+		border-radius: 33px;
+		z-index: -1;
+		box-shadow: 2px 8px 4px rgba(0, 0, 0, 0.5);
+	}
 }
