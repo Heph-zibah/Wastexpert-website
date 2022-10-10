@@ -26,9 +26,10 @@ const Navbar = () => {
 					<Link to='/Contact'>Contact Us</Link>
 					<Link to='/Faq'>FAQ</Link>
 				</ul>
-				<button className='px-[80px] py-[17px] bg-primary text-white rounded-md ml-[77px]'>
+
+				<Link className='px-[80px] py-[17px] bg-primary text-white rounded-md ml-[77px]'>
 					Login
-				</button>
+				</Link>
 			</nav>
 			<div onClick={handleNav} className='block lg:hidden'>
 				{nav ? (
@@ -81,9 +82,13 @@ const Navbar = () => {
 							FAQ
 						</Link>
 					</ul>
-					<button className='px-[80px] py-[17px] bg-primary text-white rounded-md flex items-center mt-[26px]'>
+
+					<Link
+						to='/Login'
+						className='px-[80px] py-[17px] bg-primary text-white rounded-md flex items-center mt-[26px]'
+					>
 						Login
-					</button>
+					</Link>
 				</div>
 			</div>
 		</header>
