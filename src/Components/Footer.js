@@ -6,9 +6,9 @@ import logo from '../Assets/HomePage/logo-white.svg';
 
 const Footer = () => {
 	return (
-		<div className='bg-primary flex flex-col text-white px-[27px] pt-[41px] pb-[24px] lg:pl-[103px] lg:pr-[105px] lg:pb-[28.42px] lg:pt-[89px]'>
+		<div className='bg-primary flex flex-col text-white px-[27px] pt-[41px] pb-[24px] md:px-[60px] lg:px-[70px] xl:px-[85px] xxl:pl-[103px] xxl:pr-[105px] lg:pb-[28.42px] lg:pt-[89px]'>
 			<div className='lg:grid  lg:grid-cols-12 lg:justify-between'>
-				<div className='lg:col-start-1 lg:col-end-4'>
+				<div className='lg:col-start-1 lg:col-end-5 xxl:col-start-1 xxl:col-end-4'>
 					<div className='flex flex-col items-center '>
 						<div>
 							<img src={logo} alt='wastexpert logo' />
