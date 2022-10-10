@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Login = () => {
+const LogIn = () => {
 	return (
 		<div className='mx-auto bg-[rgba(0,0,0,0.5)] w-full flex items-center justify-center  h-[100vh]'>
 			<div className='bg-white [w-369px] px-[25px] pt-[43px] pb-[50px] flex flex-col items-center justify-center'>
@@ -43,4 +43,4 @@ const Login = () => {
 	);
 };
 
-export default Login;
+export default LogIn;
