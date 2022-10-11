@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { IoIosArrowForward } from 'react-icons/io';
 import Navbar from '../Components/Navbar';
 import Hero from '../Components/Hero';
@@ -70,12 +71,15 @@ const Home = () => {
 						viverra ac leo. Pellentesque venenatis, ut risus at. dolor sit amet,
 						consectetur adipiscing elit. Vitae,{' '}
 					</p>
-					<div className='flex items-center bg-primary px-[35px] pt-[10px] pb-[15px] text-white rounded-md'>
+					<Link
+						to='/About'
+						className='flex items-center bg-primary px-[35px] pt-[10px] pb-[15px] text-white rounded-md'
+					>
 						<IoIosArrowForward />
 						<button className='text-[14px] font-mulish font-semibold'>
 							Read More
 						</button>
-					</div>
+					</Link>
 				</div>
 			</div>
 			{/*BECOME A PARTNER*/}
@@ -99,8 +103,8 @@ const Home = () => {
 								And start earning from every kilograms you provided space for
 							</li>
 						</ul>
-						<button className='text-[18px] font-semibold bg-primary px-[26px] py-[15px] text-white  mt-[35px] lg:mt-[30px] rounded-md'>
-							Become an Agent
+						<button className='text-[18px] font-semibold bg-primary px-[26px] py-[15px] mt-[33px] text-white lg:mt-[30px] rounded-md'>
+							<Link to='/Faq'>Become an Agent</Link>
 						</button>
 					</div>
 					<div className='h-[385px] w-[1px] bg-white   mx-[116px] hidden lg:block'></div>
@@ -120,8 +124,8 @@ const Home = () => {
 								kilograms
 							</li>
 						</ul>
-						<button className='text-[18px] font-semibold bg-white px-[26px] py-[15px] text-black mt-[33px] rounded-md border border-solid border-black'>
-							Become an Collector
+						<button className='text-[18px] font-semibold bg-white px-[26px] py-[15px] mt-[33px] text-black rounded-md border border-solid border-black'>
+							<Link to='/Collector'>Become an Collector</Link>
 						</button>
 					</div>
 				</div>

@@ -3,12 +3,19 @@ import { Link } from 'react-router-dom';
 import logo from '../Assets/HomePage/logo.svg';
 import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
+import LogIn from './LogIn';
 
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
 
 	const handleNav = () => {
 		setNav(!nav);
+	};
+
+	const [isLogin, setIsLogin] = useState(false);
+
+	const togglePopupPhone = () => {
+		setIsLogin(!isLogin);
 	};
 
 	return (
@@ -27,9 +34,25 @@ const Navbar = () => {
 					<Link to='/Faq'>FAQ</Link>
 				</ul>
 
-				<Link className='px-[80px] py-[17px] bg-primary text-white rounded-md ml-[77px]'>
+				{/*<Link
+					to='/LogIn'
+					className='px-[80px] py-[17px] bg-primary text-white rounded-md ml-[77px]'
+				>
 					Login
-				</Link>
+	</Link> */}
+				{/*<i className='ml-[-40px] mt-[20px]'>
+					<TbEdit style={iconStyles} onClick={togglePopupPhone} />
+					{isChangePhoneNumber && (
+						<ChangePhoneNumber handleClose={togglePopupPhone} />
+					)}
+					</i>*/}
+				<button
+					onClick={togglePopupPhone}
+					className='px-[80px] py-[17px] bg-primary text-white rounded-md ml-[77px]'
+				>
+					Login
+					{isLogin && <LogIn handleClose={togglePopupPhone} />}
+				</button>
 			</nav>
 			<div onClick={handleNav} className='block lg:hidden'>
 				{nav ? (
