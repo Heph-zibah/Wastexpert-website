@@ -40,11 +40,11 @@ const Services = () => {
 						tortor, a. Nisl, dictumst eu urna, at odio scelerisque pulvinar a, magna.
 					</p>
 
-					<div className='flex mt-[44px] items-center text-center pl-[31px] pr-[44px] w-full lg:px-0 lg:text-[18px] lg:mt-[73px]'>
-						<button className='rounded-md pl-[32px] pr-[33px] pt-[10px] pb-[17px] bg-primary text-white font-semibold text-sm lg:px-[52px] lg:py-[15px]'>
+					<div className='flex mt-[44px] items-center text-center px-[14px] lg:pl-[31px]  lg:pr-[44px] w-full lg:px-0 lg:text-[18px] lg:mt-[73px]'>
+						<button className='rounded-md px-[12px] pt-[10px] pb-[10px] bg-primary text-white font-semibold text-sm lg:px-[52px] lg:py-[15px]'>
 							Pick up Request
 						</button>
-						<button className='rounded-md flex items-center bg-black pl-[24px] pr-[17px] pt-[9px] pb-[10.99px] text-white ml-[33px] lg:px-[35px] lg:pt-[12px] lg:pb-[10]'>
+						<button className='rounded-md flex items-center bg-black pl-[14px] pr-[12px] pt-[9px] pb-[10.99px] text-white ml-[33px] lg:px-[35px] lg:pt-[12px] lg:pb-[10]'>
 							<AiOutlinePlayCircle className='text-[20px] lg:text-[32px]' />
 							<span className='ml-[12px]'> Watch Video</span>
 						</button>

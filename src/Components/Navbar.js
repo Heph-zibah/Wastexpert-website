@@ -14,8 +14,8 @@ const Navbar = () => {
 
 	const [isLogin, setIsLogin] = useState(false);
 
-	const togglePopupPhone = () => {
-		setIsLogin(!isLogin);
+	const togglePopup = () => {
+		setIsLogin(isLogin);
 	};
 
 	return (
@@ -34,24 +34,12 @@ const Navbar = () => {
 					<Link to='/Faq'>FAQ</Link>
 				</ul>
 
-				{/*<Link
-					to='/LogIn'
-					className='px-[80px] py-[17px] bg-primary text-white rounded-md ml-[77px]'
-				>
-					Login
-	</Link> */}
-				{/*<i className='ml-[-40px] mt-[20px]'>
-					<TbEdit style={iconStyles} onClick={togglePopupPhone} />
-					{isChangePhoneNumber && (
-						<ChangePhoneNumber handleClose={togglePopupPhone} />
-					)}
-					</i>*/}
 				<button
-					onClick={togglePopupPhone}
+					onClick={togglePopup}
 					className='px-[80px] py-[17px] bg-primary text-white rounded-md ml-[77px]'
 				>
 					Login
-					{isLogin && <LogIn handleClose={togglePopupPhone} />}
+					{isLogin && <LogIn handleClose={togglePopup} />}
 				</button>
 			</nav>
 			<div onClick={handleNav} className='block lg:hidden'>
@@ -105,13 +93,13 @@ const Navbar = () => {
 							FAQ
 						</Link>
 					</ul>
-
-					<Link
-						to='/Login'
+					<button
+						onClick={togglePopup}
 						className='px-[80px] py-[17px] bg-primary text-white rounded-md flex items-center mt-[26px]'
 					>
 						Login
-					</Link>
+						{isLogin && <LogIn handleClose={togglePopup} />}
+					</button>
 				</div>
 			</div>
 		</header>
