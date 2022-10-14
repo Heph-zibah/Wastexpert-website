@@ -19,7 +19,6 @@ const LogIn = () => {
 			alert(JSON.stringify(values, null, 2));
 		}
 	});
-
 	return (
 		<div className='mx-auto bg-[rgba(0,0,0,0.7)] w-full flex items-center justify-center fixed top-0 left-0 h-[100vh]'>
 			<div className='bg-white [w-369px] px-[25px] pt-[43px] pb-[50px]'>
