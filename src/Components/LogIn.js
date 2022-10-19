@@ -21,7 +21,7 @@ const LogIn = () => {
 	});
 	return (
 		<div className='md:mx-auto bg-[rgba(0,0,0,0.7)] w-full flex items-center justify-center fixed top-0 left-0 h-[100vh]'>
-			<div className='bg-white w-full max-w-[369px] px-[25px] pt-[43px] pb-[50px] mx-5'>
+			<div className='bg-white w-full max-w-[400px] px-[25px] pt-[43px] pb-[50px] mx-5'>
 				<h1 className='text-lg font-semibold font-inter text-primary mb-[41px] text-center'>
 					Log in
 				</h1>

@@ -12,7 +12,7 @@ const About = () => {
 		<div>
 			<Navbar />
 			{/*HERO SECTION */}
-			<div>
+			<div className='mt-20'>
 				<div className='flex flex-col lg:flex-row-reverse'>
 					<div className=''>
 						<img src={aboutHero} alt='three people' />

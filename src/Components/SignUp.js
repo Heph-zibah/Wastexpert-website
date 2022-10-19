@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const SignUp = () => {
 	return (
 		<div className='mx-auto bg-[rgba(0,0,0,0.7)] w-full flex items-center justify-center fixed top-0 left-0 h-[100vh]'>
-			<div className='bg-white [w-369px] px-[25px] pt-[43px] pb-[50px]'>
+			<div className='bg-white w-full max-w-[400px] px-[25px] pt-[43px] pb-[50px]'>
 				<h1 className='text-lg font-semibold font-inter text-primary mb-[41px] text-center'>
 					Sign Up
 				</h1>
@@ -76,7 +76,7 @@ const SignUp = () => {
 							className='text-[#9AD1AD] text-xs py-[10px] px-[10px] rounded-lg border border-[#9AD1AD]'
 						/>
 					</div>
-					<button className='rounded-lg text-white bg-primary px-[144px] py-[4px] font-semibold mt-[30px]'>
+					<button className='rounded-lg text-white bg-primary px-[104px] py-[4px] font-semibold mt-[30px]'>
 						create account
 					</button>
 				</form>

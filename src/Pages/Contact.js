@@ -11,7 +11,7 @@ const Contact = () => {
 		<div>
 			<Navbar />
 			{/*hero */}
-			<div className='pt-[72px] lg:pt-0 pb-[37px] lg:pb-0 lg:flex lg:flex-row-reverse  items-center contact'>
+			<div className='mt-24 pt-[72px] lg:pt-0 pb-[37px] lg:pb-0 lg:flex lg:flex-row-reverse  items-center contact'>
 				<div className='lg:w-5/6 contact-bg lg:pt-[96px]'>
 					<img
 						src={contactImg}

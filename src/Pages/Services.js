@@ -14,13 +14,13 @@ const Services = () => {
 			<Navbar />
 			{/*HERO */}
 
-			<div className='pt-[72px] lg:pt-0 pb-[37px] lg:pb-[80px] lg:flex lg:flex-row-reverse  items-center'>
+			<div className='lg:mt-24 pt-[72px] lg:pt-0 pb-[37px] lg:pb-[80px] lg:flex lg:flex-row-reverse  items-center'>
 				<div className=' hero-bg lg:pt-[96px]'>
 					<img src={truck} alt='a man holding waste' className='lg:mr-[102px]' />
 				</div>
 
 				<div className='px-[19px] text-center lg:text-start lg:px-0 lg:pl-[70px] xl:pl-[102px] pt-[29px] lg:pt-[70px] lg:w-4/5'>
-					<div>
+					<div className='flex flex-col items-center lg:items-start'>
 						<h1 className='font-bold text-[26px] lg:text-[26px] xl:text-[48px] text-primary font-inter leading-[110.02%]'>
 							Pick up
 						</h1>

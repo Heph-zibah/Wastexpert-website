@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const PasswordReset = () => {
 	return (
 		<div className='mx-auto bg-[rgba(0,0,0,0.7)] w-full flex items-center justify-center fixed top-0 left-0 h-[100vh]'>
-			<div className='bg-white [w-369px] px-[25px] pt-[157px] pb-[50px]'>
+			<div className='bg-white w-full max-w-[400px] px-[25px] pt-[157px] pb-[50px]'>
 				<div className='mb-[55px] text-center font-inter'>
 					<h1 className='text-lg font-semibold  text-primary mb-[11px]'>
 						Email submitted successfully!

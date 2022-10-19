@@ -19,7 +19,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<header className='border-b pl-[19px] pr-[8px] py-[22px] lg:px-[70px] xl:px-[805x] xxl:px-[100px] md:px-[60px] md:py-[30px] flex items-center justify-between shadow-[0px 4px 18px rgba(0, 0, 0, 0.16)] bg-[ linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(90.01deg, #08BD46 0.84%, rgba(44, 255, 204, 0) 194.85%)]'>
+		<header className='fixed top-0 z-50 w-full bg-white border-b pl-[19px] pr-[8px] py-[22px] lg:px-[70px] xl:px-[805x] xxl:px-[100px] md:px-[60px] md:py-[30px] flex items-center justify-between shadow-[0px 4px 18px rgba(0, 0, 0, 0.16)] bg-[ linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(90.01deg, #08BD46 0.84%, rgba(44, 255, 204, 0) 194.85%)]'>
 			<div>
 				<Link to='/' className='flex items-center'>
 					<img src={logo} alt='wastexpert logo' />

@@ -5,7 +5,7 @@ import { AiOutlinePlayCircle } from 'react-icons/ai';
 const Hero = () => {
 	return (
 		<div>
-			<div className='pt-[72px] lg:pt-0 pb-[37px] lg:pb-0 lg:flex lg:flex-row-reverse  items-center'>
+			<div className='mt-24 pt-[72px] lg:pt-0 pb-[37px] lg:pb-0 lg:flex lg:flex-row-reverse  items-center'>
 				<div className='lg:w-5/6 hero-bg lg:pt-[96px]'>
 					<img src={heroImg} alt='a man holding waste' className='lg:mr-[102px]' />
 				</div>

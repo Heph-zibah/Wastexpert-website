@@ -35,7 +35,7 @@ const Home = () => {
 					</h2>
 					<div className='bg-primary w-[48px] lg:w-[143px] h-[1px] ml-[2px]'></div>
 				</div>
-				<div className='flex flex-wrap  items-center'>
+				<div className='flex flex-wrap gap-10 lg:gap-0 items-center'>
 					<img src={cocacola} alt='cocacola logo' />
 					<img src={jaiz} alt='jaiz logo' className='ml-[40px]' />
 					<img src={access} alt='access logo' className='ml-[53px]' />

@@ -4,7 +4,7 @@ import agentImage from '../Assets/FaqPage/agent-image.svg';
 const Agent = () => {
 	return (
 		<div>
-			<div className='pt-[72px] lg:pt-0 pb-[37px] lg:pb-0 lg:flex lg:flex-row-reverse  items-center'>
+			<div className='lg:mt-24 pt-[72px] lg:pt-0 pb-[37px] lg:pb-0 lg:flex lg:flex-row-reverse  items-center'>
 				<div className='lg:w-5/6 hero-bg lg:pt-[96px]'>
 					<img src={agentImage} alt='agent pic' />
 				</div>

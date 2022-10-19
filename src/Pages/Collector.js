@@ -9,6 +9,7 @@ const Collector = () => {
 	return (
 		<div>
 			<Navbar />
+			<div className='mt-24'></div>
 			<WhyRoll />
 			<div className='pt-[40px] xl:pt-[144px] pb-[54px] lg:pb-[66px]'>
 				<h6 className='text-center text-primary text-[40px] font-mulish font-semibold hidden lg:block'>
