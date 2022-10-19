@@ -214,7 +214,7 @@ const Home = () => {
 				<h6 className='text-center text-primary text-[22px] font-mulish font-semibold lg:hidden'>
 					FAQ
 				</h6>
-				<div className='mt-[34px] lg:mt-[38px] rounded-md w-[390px] lg:w-[1000px] mx-auto accordion'>
+				<div className='mt-[34px] lg:mt-[38px] rounded-md w-full max-w-[1000px] mx-auto accordion'>
 					<Accordion />
 				</div>
 			</div>

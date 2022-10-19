@@ -15,7 +15,7 @@ const Navbar = () => {
 	const [isLogin, setIsLogin] = useState(false);
 
 	const togglePopup = () => {
-		setIsLogin(isLogin);
+		setIsLogin(!isLogin);
 	};
 
 	return (

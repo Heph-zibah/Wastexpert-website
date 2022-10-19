@@ -34,13 +34,13 @@ const Footer = () => {
 						<p className='font-mulish font-semibold text-[18px] text-start flex items-start mb-[8px]'>
 							Subscribe to our Newsletter
 						</p>
-						<form className='flex'>
+						<form className='flex w-full max-w-[470px] flex-col gap-[20px] lg:flex-row lg:gap-0'>
 							<input
 								type='text'
 								placeholder='Enter your email address here'
-								className='pl-[24px] pt-[9px] pb-[10px] pr-[24px] lg:pl-[36px] lg:pt-[13px] lg:pb-[16px] lg:pr-[54px] rounded-lg italic text-[18px]'
+								className='px-[20px] py-[9px] lg:pl-[36px] lg:pt-[13px] lg:pb-[16px] lg:pr-[54px] rounded-lg italic text-[18px]'
 							/>
-							<button className='rounded-lg bg-black pl-[24px] pt-[9px] pb-[10px] pr-[24px] lg:pl-[36px] lg:pt-[13px] lg:pb-[16px] lg:pr-[35px] font-mulish text-[18px]'>
+							<button className='rounded-lg bg-black px-[20px] py-[9px] lg:pl-[36px] lg:pt-[13px] lg:pb-[16px] lg:pr-[35px] font-mulish text-[18px]'>
 								Sign Up
 							</button>
 						</form>

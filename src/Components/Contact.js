@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Contact = () => {
 	return (
-		<div className='pb-[79px] font-mulish flex flex-col items-center w-[363px] lg:w-[400px] text-center mx-auto'>
+		<div className='pb-[79px] font-mulish flex flex-col items-center w-full max-w-[400px] text-center mx-auto'>
 			<h6 className='text-center text-primary text-[25px] lg:text-[40px] font-mulish font-semibold'>
 				Still have a questions?
 			</h6>
