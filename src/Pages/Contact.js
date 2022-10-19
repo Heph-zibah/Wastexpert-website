@@ -61,7 +61,7 @@ const Contact = () => {
 						</div>
 					</div>
 					<div className='mt-[63px] flex flex-col items-center lg:items-start'>
-						<h2 className='pt-[13px] pb-[20px] pl-[47px]  pr-[46px] text-white bg-primary font-bold w-[255px]'>
+						<h2 className='pt-[13px] pb-[20px] pl-[47px]  pr-[46px] text-white bg-primary font-bold w-auto'>
 							OFFICE HOURS
 						</h2>
 						<div className='mt-[19px]'>
@@ -83,7 +83,7 @@ const Contact = () => {
 						</h2>
 					</div>
 				</div>
-				<div className='border border-[#9AD1AD] rounded-md w-[396px] pt-[39px] px-[42px] pb-[24px] lg:pt-[99px] lg:px-[62px] :pb-[64px] mx-auto lg:mx-0'>
+				<div className='border border-[#9AD1AD] rounded-md w-full max-w-[400px] pt-[39px] px-[42px] pb-[24px] lg:pt-[99px] lg:px-[62px] :pb-[64px] mx-auto lg:mx-0'>
 					<p className='text-primary  text-[22px] mb-[46px] font-semibold'>
 						Get in touch
 					</p>
