@@ -70,17 +70,17 @@ const About = () => {
 				</div>
 			</div>
 			{/*SOLUTION SECTION */}
-			<div className='flex flex-col lg:flex-row-reverse mt-[64px] '>
-				<div className='flex about-bg '>
+			<div className='flex flex-col lg:flex-row-reverse mt-[64px] relative'>
+				<div className='flex about-bg  w-full items-end justify-between'>
 					<img
 						src={bottle}
 						alt='bottles'
-						className='mb-[-150px] ml-[-50px] lg:mb-[-230px] xl:mb-[-240px] xxl:mb-[-200px] xl:ml-[-100px] w-[70%] xxl:w-[100%]'
+						className=' ml-[-50px] xl:ml-0 w-[70%] xxl:w-[100%]'
 					/>
 					<img
 						src={bin}
 						alt='waste bin'
-						className='ml-[-130px] md:ml-[-200px] xl:ml-[-210px] xxl:ml-[-230px] w-[70%] xxl:w-[100%]'
+						className='ml-[-190px] md:ml-[-200px] xl:ml-[-210px] xxl:ml-[-230px] w-[70%] xxl:w-[100%]'
 					/>
 				</div>
 

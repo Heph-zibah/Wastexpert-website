@@ -28,14 +28,14 @@ const Home = () => {
 			<Navbar />
 			<Hero />
 			{/*PARTNERS */}
-			<div className='pl-[107px] pr-[99px] pt-[39px] pb-[61px] flex flex-col items-center'>
+			<div className='px-[19px] lg:pl-[107px] lg:pr-[99px] pt-[39px] pb-[61px] flex flex-col items-center'>
 				<div className='flex items-center text-center mb-[38px]'>
 					<h2 className='font-inter text-[40px] font-semibold text-primary text-center '>
 						Partners
 					</h2>
 					<div className='bg-primary w-[48px] lg:w-[143px] h-[1px] ml-[2px]'></div>
 				</div>
-				<div className='grid grid-cols-3 lg:grid-cols-8 items-center'>
+				<div className='flex flex-wrap  items-center'>
 					<img src={cocacola} alt='cocacola logo' />
 					<img src={jaiz} alt='jaiz logo' className='ml-[40px]' />
 					<img src={access} alt='access logo' className='ml-[53px]' />
@@ -51,7 +51,7 @@ const Home = () => {
 				</div>
 			</div>
 			{/*ABOUT US */}
-			<div className='flex flex-col lg:flex-row px-[96px] lg:pt-[78px] lg:pb-[104px]'>
+			<div className='flex flex-col lg:flex-row px-[19px] lg:px-[96px] lg:pt-[78px] lg:pb-[104px]'>
 				<div>
 					<img src={aboutImg} alt='workers' />
 				</div>
@@ -139,16 +139,16 @@ const Home = () => {
 					<div className='bg-primary w-[48px] lg:w-[149px] h-[1px] ml-[2px]'></div>
 				</div>
 
-				<div className=''>
-					<div className='flex flex-row-reverse items-center'>
+				<div className='flex flex-col gap-[20px]'>
+					<div className='flex flex-row-reverse items-center '>
 						<div className='hidden lg:block w-4/5'>
 							<img src={testimonial1} alt='avatar' />
 						</div>
-						<div className='bg-white rounded-[9px] pl-[43px] pr-[62px] pt-[14px]  mr-[18px] ml-[22px]'>
+						<div className='bg-white rounded-[9px] pl-[43px] pr-[62px] pt-[14px] pb-[20px] lg:pb-0  mr-[18px] ml-[22px] '>
 							<p className='font-bold text-[26px] font-mulish text-[#049637]'>
 								Kolade babalola ( Uber Driver)
 							</p>
-							<p className='font-medium text-[10px] lgtext-[22px] font-mulish text-[#ACACAC] text-justify italic '>
+							<p className='font-medium text-[10px] lg:text-[22px] font-mulish text-[#ACACAC] text-justify italic '>
 								“tincidunt urna non, lobortis tincidunt. Faucibus felis nulla faucibus
 								tellus nunc. Platea risus nibh feugiat dui phasellus phasellus viverra
 								ac leo. Pellentesque venenatis, ut risus at. dolor sit amet, consectetur
@@ -161,11 +161,11 @@ const Home = () => {
 						<div className='hidden lg:block w-4/5'>
 							<img src={testimonial2} alt='avatar' />
 						</div>
-						<div className='bg-white rounded-[9px] pl-[43px] pr-[62px] pt-[14px] ml-[18px] mr-[20px]'>
+						<div className='bg-white rounded-[9px] pl-[43px] pr-[62px] pt-[14px] pb-[20px] lg:pb-0 ml-[18px] mr-[20px]'>
 							<p className='font-bold text-[26px] font-mulish text-[#049637]'>
 								Kunle Johnson( restaurant Owner)
 							</p>
-							<p className='font-medium text-[22px] font-mulish text-[#ACACAC] text-justify italic '>
+							<p className='font-medium  text-[10px] lg:text-[22px] font-mulish text-[#ACACAC] text-justify italic '>
 								“Wastexpert is a life saver for me. It has taken the hassle and burdens
 								of trashing my waste off my shoulders. and the most exciting thing about
 								wastexpert trashing my waste is that they are doing it while am getting
@@ -204,7 +204,7 @@ const Home = () => {
 						<p className='text-[22px] mt-[20px] '>Pet botles</p>
 					</div>
 				</div>
-				<button>See more</button>
+				<button className='bg-white py-[18px] px-[61px] mt-[32px]'>See more</button>
 			</div>
 			{/*FAQ*/}
 			<div className='pt-[40px] xl:pt-[144px] pb-[54px] lg:pb-[66px]'>

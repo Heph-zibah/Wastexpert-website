@@ -19,7 +19,7 @@ const Hero = () => {
 						forefront to build a zero landfill and zero waste nation.
 					</p>
 
-					<div className='flex mt-[44px] items-center text-center pl-[31px] pr-[44px] w-full lg:px-0 lg:text-[18px] lg:mt-[73px]'>
+					<div className='flex mt-[44px] items-center text-center pl-[11px] pr-[14px] w-full lg:px-0 lg:text-[18px] lg:mt-[73px]'>
 						<button className='rounded-sm pl-[32px] pr-[33px] pt-[10px] pb-[17px] bg-primary text-white font-semibold text-sm lg:px-[52px] lg:py-[15px]'>
 							Get Started
 						</button>
