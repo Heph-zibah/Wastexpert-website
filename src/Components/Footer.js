@@ -34,7 +34,7 @@ const Footer = () => {
 						<p className='font-mulish font-semibold text-[18px] text-start flex items-start mb-[8px]'>
 							Subscribe to our Newsletter
 						</p>
-						<form className='flex w-full max-w-[470px] flex-col lg:flex-row lg:gap-0'>
+						<form className='flex w-full max-w-[470px] flex-col gap-5 lg:flex-row lg:gap-0'>
 							<input
 								type='text'
 								placeholder='Enter your email address here'
